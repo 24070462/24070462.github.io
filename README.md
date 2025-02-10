@@ -1,1 +1,2 @@
-# Hello this is my website
+# 24070462.github.io
+Learning Github is fun.
