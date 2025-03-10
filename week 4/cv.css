@@ -1,27 +1,22 @@
 body {
-    background: #ccc;
+    background: #d45f5f;
     margin: 0;
     padding: 0;
 }
 nav ul {
-    background-color: rgb(255, 255, 255);
-    margin: 0;
-    padding: 0;
+    background-color: rgb(235, 187, 187);
+    margin: 10px;
+    padding: 10px;
     text-align: center;
+    font-size: 25px;
 }
 nav ul li {
     display: inline;
     padding: 13px;
     line-height: 40px;
 }
-
-nav ul li a {
-    font-size: 20px;
-    color: #ff00c8;
-    text-decoration: underline
-}
 header {
-    background-color: #82c0ed;
+    background-color: #d45f5f;
     color: #000000;
     text-align: center;
     padding: 15px;
@@ -33,20 +28,82 @@ img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-top: 20px; /* Adjust this value to lower the picture position */
-    height: auto;
+    margin-top: 20px; 
+    height:  auto;
 }
-body {
-    background: #82c0ed;
-    margin: 0;
-    padding: 0;
-}
+
 p {
     text-align: left;
-    margin-left: 20px; /* Adjust this value to your preference */
+    margin-left: 20px;
 }
 ul li {
     list-style-type: none;
-    margin-left: none; /* Adjust this value to your preference */
+    margin-left: none;
     
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+body, p, ul li, nav ul li a, header {
+    color: #ffffff;
+}
+details summary ul li {
+    list-style-type: none;
+    margin-left: none;
+    text-align: left;
+}
+details img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+}
+details {
+    margin: 10px;
+    padding: 10px;
+    background-color: #d45f5f;
+    color: #ffffff;
+}
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding:40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+table th {
+    background-color: #d45f5f;
+    color: #ffffff;
+}
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+table tr:hover {
+    background-color: #ddd;
+}
+
