@@ -1,0 +1,52 @@
+body {
+    background: #ccc;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    padding: 13px;
+    line-height: 40px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: #ff00c8;
+    text-decoration: underline
+}
+header {
+    background-color: #82c0ed;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px; /* Adjust this value to lower the picture position */
+    height: auto;
+}
+body {
+    background: #82c0ed;
+    margin: 0;
+    padding: 0;
+}
+p {
+    text-align: left;
+    margin-left: 20px; /* Adjust this value to your preference */
+}
+ul li {
+    list-style-type: none;
+    margin-left: none; /* Adjust this value to your preference */
+    
+}
