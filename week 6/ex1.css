@@ -1,7 +1,28 @@
-h2#heading{
+span {
     display: block;
     text-align: center;
     text-transform: capitalize;
     text-decoration: underline;
-    width: 50px;
+    width: 500px;
+}
+div {
+    background-color: yellow;
+    width: 300px;
+    margin: 0px 0px 5px 5px;
+}
+.GRF {
+    font-weight: bold;
+    color: #f00;
+    width: 400px;
+}
+#THP {
+    font-weight: none;
+    font-style: italic;
+    font-size: 30px;
+    font-family: "Times New Roman";
+    background-color: black;
+    color: white;
+}
+body{
+    font: 20px "Comic Sans MS";
 }

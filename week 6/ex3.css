@@ -1,0 +1,28 @@
+.PD {   
+    display: none;
+}
+.P img {   
+   width: 150px;    
+   height: 150px;
+   border-radius: 20px;
+   box-shadow: 5px 5px 10px #aaa;
+}
+.PN {
+    font-weight: bold;
+}
+.PP {
+    font-style: italic;
+}
+.PP::before {
+    content: " - ";
+}
+.P {
+    text-align: center;
+    width: 150px;
+    margin: 0px 20px;
+    float: left;
+    cursor: pointer;
+}
+.P:hover .PD {
+    display: block;
+}
